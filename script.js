@@ -131,14 +131,14 @@ allSections.forEach(function (section) {
 
 const imgTargets = document.querySelectorAll('img[data-src]');
 
-const loadImg = function (entries, observer) {
+const loadImg =  (entries, observer) => {
   const [entry] = entries;
 
   if (!entry.isIntersecting) return;
 
   entry.target.src = entry.target.dataset.src;
 
-  entry.target.addEventListener('load', function () {
+  entry.target.addEventListener('load',  () => {
     entry.target.classList.remove('lazy-img');
   });
   observer.unobserve(entry.target);
