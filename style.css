@@ -928,4 +928,13 @@ h4 {
   .footer__link {
     font-size: 2rem;
   }
+   .modal {
+    padding: 3rem 0.6rem;
+  }
+  .modal__header {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    padding: 2rem;
+  }
 }
