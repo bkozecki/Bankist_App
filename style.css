@@ -737,7 +737,7 @@ h4 {
   margin-bottom: 5rem;
 }
 .mobile__btn {
-  padding: 3rem 4.5rem;
+  padding: 2rem 3rem;
   background-color: #fff;
   font-size: 3rem;
   border-radius: 55px;
@@ -830,6 +830,7 @@ h4 {
   .btn {
     font-size: 1.8rem;
     padding: 0.7rem 2rem;
+    color: #fff;
   }
   .btn span {
     display: none;
@@ -855,7 +856,7 @@ h4 {
     bottom: 0;
   }
   #section--3 {
-    padding: 15rem 0;
+    padding: 15rem 1rem;
   }
   .section__title {
     padding: 0 2rem;
@@ -907,7 +908,7 @@ h4 {
     bottom: 0;
   }
   #section--3 {
-    padding: 15rem 0;
+    padding: 15rem 1rem;
   }
   .section__title {
     padding: 0 2rem;
